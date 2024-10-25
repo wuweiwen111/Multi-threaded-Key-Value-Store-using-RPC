@@ -231,8 +231,6 @@ grape : purple
 
 ### 4. I have attached a few docker output screenshots as reference. 
 
-![Screenshot 2024-10-24 at 8 50 18 PM](https://github.com/user-attachments/assets/e6dd522f-108f-4486-883c-2cbf84486ccc)
-
-![Screenshot 2024-10-24 at 8 56 40 PM](https://github.com/user-attachments/assets/9dc580cd-8118-4740-8349-e75a67cc6f49)
-
+![Screenshot 2024-10-24 at 8 50 18 PM](https://github.com/user-attachments/assets/fe125309-5c2c-4f0f-86ce-3b1c6754d8e6)
+![Screenshot 2024-10-24 at 8 56 40 PM](https://github.com/user-attachments/assets/0ac6f900-3afc-4a98-9971-7e6a316a2dc7)
 
