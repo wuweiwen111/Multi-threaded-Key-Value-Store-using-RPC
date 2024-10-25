@@ -229,6 +229,10 @@ county : china
 grape : purple
 
 
-### 4. I have attached few docker output screenshots as reference. 
+### 4. I have attached a few docker output screenshots as reference. 
+
+![Screenshot 2024-10-24 at 8 50 18 PM](https://github.com/user-attachments/assets/e6dd522f-108f-4486-883c-2cbf84486ccc)
+
+![Screenshot 2024-10-24 at 8 56 40 PM](https://github.com/user-attachments/assets/9dc580cd-8118-4740-8349-e75a67cc6f49)
 
 
