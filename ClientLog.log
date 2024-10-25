@@ -1,0 +1,71 @@
+10-22-2024 00:58:24.509 - Connected to KeyValueStore at localhost:1099.
+10-22-2024 00:58:24.524 - Pre-populating the key-value store with initial data...
+10-22-2024 00:58:24.529 - Executed: PUT apple red | Response: OK: Key added successfully.
+10-22-2024 00:58:24.529 - Executed: PUT banana yellow | Response: OK: Key added successfully.
+10-22-2024 00:58:24.530 - Executed: PUT grape purple | Response: OK: Key added successfully.
+10-22-2024 00:58:24.531 - Executed: PUT lemon yellow | Response: OK: Key added successfully.
+10-22-2024 00:58:24.531 - Executed: PUT cherry red | Response: OK: Key added successfully.
+10-22-2024 00:58:24.532 - Pre-population completed.
+10-22-2024 00:59:19.059 - Executed Command: PUT neu bos | Response: OK: Key added successfully.
+10-22-2024 00:59:29.130 - Executed Command: PUT nyu nyc | Response: OK: Key added successfully.
+10-22-2024 00:59:35.976 - Executed Command: PUT bu bos | Response: OK: Key added successfully.
+10-22-2024 00:59:41.429 - Executed Command: PUT ucsd sd | Response: OK: Key added successfully.
+10-22-2024 00:59:47.889 - Executed Command: PUT ucla la | Response: OK: Key added successfully.
+10-22-2024 00:59:54.281 - Executed Command: get ucla | Response: OK: la
+10-22-2024 00:59:58.323 - Executed Command: get nyu | Response: OK: nyc
+10-22-2024 01:00:00.903 - Executed Command: get neu | Response: OK: bos
+10-22-2024 01:00:04.188 - Executed Command: show | Response: banana : yellow
+apple : red
+cherry : red
+lemon : yellow
+bu : bos
+ucla : la
+ucsd : sd
+grape : purple
+nyu : nyc
+neu : bos
+10-22-2024 01:08:02.019 - Client is shutting down.
+10-22-2024 01:20:11.382 - Client exception: KeyValueStore
+10-22-2024 01:20:42.652 - Connected to KeyValueStore at localhost:2001.
+10-22-2024 01:20:42.668 - Pre-populating the key-value store with initial data...
+10-22-2024 01:20:42.679 - Executed: PUT apple red | Response: OK: Key added successfully.
+10-22-2024 01:20:42.680 - Executed: PUT banana yellow | Response: OK: Key added successfully.
+10-22-2024 01:20:42.681 - Executed: PUT grape purple | Response: OK: Key added successfully.
+10-22-2024 01:20:42.682 - Executed: PUT lemon yellow | Response: OK: Key added successfully.
+10-22-2024 01:20:42.683 - Executed: PUT cherry red | Response: OK: Key added successfully.
+10-22-2024 01:20:42.683 - Pre-population completed.
+10-22-2024 01:20:45.549 - Executed Command: show | Response: banana : yellow
+apple : red
+cherry : red
+lemon : yellow
+grape : purple
+10-22-2024 01:30:40.225 - Client is shutting down.
+10-24-2024 20:14:27.846 - Client exception: KeyValueStore
+10-24-2024 20:19:23.429 - Connected to KeyValueStore at localhost:1099.
+10-24-2024 20:19:23.451 - Pre-populating the key-value store with initial data...
+10-24-2024 20:19:23.456 - Executed: PUT apple red | Response: OK: Key added successfully.
+10-24-2024 20:19:23.457 - Executed: PUT banana yellow | Response: OK: Key added successfully.
+10-24-2024 20:19:23.458 - Executed: PUT grape purple | Response: OK: Key added successfully.
+10-24-2024 20:19:23.460 - Executed: PUT lemon yellow | Response: OK: Key added successfully.
+10-24-2024 20:19:23.460 - Executed: PUT cherry red | Response: OK: Key added successfully.
+10-24-2024 20:19:23.461 - Pre-population completed.
+10-24-2024 20:22:03.124 - Executed Command: put neu sj | Response: OK: Key added successfully.
+10-24-2024 20:22:10.762 - Executed Command: put nyu nyc | Response: OK: Key added successfully.
+10-24-2024 20:22:17.906 - Executed Command: put bu bos | Response: OK: Key added successfully.
+10-24-2024 20:22:24.734 - Executed Command: put penn pa | Response: OK: Key added successfully.
+10-24-2024 20:22:36.293 - Executed Command: put ucsd sd | Response: OK: Key added successfully.
+10-24-2024 20:22:42.830 - Executed Command: get ucsd | Response: OK: sd
+10-24-2024 20:22:46.580 - Executed Command: get neu | Response: OK: sj
+10-24-2024 20:22:54.132 - Executed Command: get cherry | Response: OK: red
+10-24-2024 20:22:57.117 - Executed Command: get grape | Response: OK: purple
+10-24-2024 20:23:12.674 - Executed Command: get nyu | Response: OK: nyc
+10-24-2024 20:23:20.742 - Executed Command: delete neu | Response: OK: Key deleted successfully.
+10-24-2024 20:23:25.708 - Executed Command: delete penn | Response: OK: Key deleted successfully.
+10-24-2024 20:23:32.157 - Executed Command: delete grape | Response: OK: Key deleted successfully.
+10-24-2024 20:23:36.037 - Executed Command: delete cherry | Response: OK: Key deleted successfully.
+10-24-2024 20:23:45.239 - Executed Command: delete bu | Response: OK: Key deleted successfully.
+10-24-2024 20:23:47.234 - Executed Command: show | Response: banana : yellow
+apple : red
+lemon : yellow
+ucsd : sd
+nyu : nyc

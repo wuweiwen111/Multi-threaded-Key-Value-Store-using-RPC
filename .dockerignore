@@ -1,0 +1,15 @@
+# Exclude compiled class files
+*.class
+
+# Exclude Git files
+.git
+.gitignore
+
+# Exclude IDE-specific files
+*.iml
+.idea/
+*.swp
+
+# Exclude Dockerfiles from being copied into the image
+server/Dockerfile.server
+client/Dockerfile.client

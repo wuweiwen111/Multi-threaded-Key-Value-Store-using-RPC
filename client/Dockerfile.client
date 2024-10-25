@@ -1,0 +1,36 @@
+# Stage 1: Build the client
+FROM openjdk:17 AS build
+
+WORKDIR /app
+
+# Copy all necessary source files
+COPY client /app/client
+COPY server /app/server
+COPY utils /app/utils
+
+# Compile server and utility classes with package structure preserved
+RUN javac -d . server/*.java utils/*.java
+
+# Compile client classes with package structure preserved
+RUN javac -d . client/*.java
+
+# Create the executable JAR, including all classes from client, server, and utils
+RUN jar cfe client-app.jar client.ClientApp -C . .
+
+# Verify the contents of the JAR (for debugging purposes)
+RUN jar tf client-app.jar
+
+# Stage 2: Run the client application
+FROM openjdk:17
+
+WORKDIR /app
+
+# Copy the built JAR from the build stage
+COPY --from=build /app/client-app.jar /app/client-app.jar
+
+# Set environment variables for server host and port
+ENV SERVER_HOST=server
+ENV SERVER_PORT=1099
+
+# Execute the Java application with environment variables
+CMD ["sh", "-c", "java -jar client-app.jar $SERVER_HOST $SERVER_PORT"]
